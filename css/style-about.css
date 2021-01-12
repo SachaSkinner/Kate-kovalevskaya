@@ -81,3 +81,8 @@ hr {
     text-decoration: none;
     color: white;
 }
+#navbarToggleExternalContent {
+    background-color: white;
+    opacity: 90%;
+    border-radius: 4px;
+}

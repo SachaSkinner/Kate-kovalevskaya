@@ -1,0 +1,85 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #b8cae4;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.my-links a {
+    text-decoration: none;
+    margin-right: 7px;
+    display: block;
+    color: rgb(33, 33, 87);
+
+}
+
+.navbar {
+    background-color: rgb(33, 33, 87);
+}
+
+.name {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name a {
+    text-decoration: none;
+    color: white;
+}
+
+.english {
+    margin-top: 12px
+}
+
+h2 {
+
+    margin-top: 60px;
+    text-align: center;
+}
+
+#buttons {
+    /* color: pink;
+     */
+    background-color: rgb(33, 33, 87);
+    width: 30%;
+    text-align: center;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#buttons button {
+    width: 40%;
+    padding: 2px;
+    font-size: 20px;
+}
+
+#pictures,
+#videos {
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#videos {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    #buttons button {
+        width: 100%;
+
+        padding: 2px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+}
