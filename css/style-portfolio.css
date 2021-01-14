@@ -99,6 +99,7 @@ h2 {
 }
 #my-carousel li {
     width: 16px; height: 16px; margin-left: 5px; margin-right: 5px; border-radius: 50%;
+
 }
 .top-content .carousel {  width: 60%; margin-right: auto; margin-left: auto; margin-top: 30px; }
 .carousel-indicators { bottom: -80px; }
