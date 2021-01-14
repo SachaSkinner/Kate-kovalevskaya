@@ -82,4 +82,24 @@ h2 {
         text-align: center;
 
     }
+    
+    .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
+    #my-carousel, .top-content .carousel  {
+        width: 100%;
+           
+    }
+    
 }
+#my-carousel {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    
+}
+#my-carousel li {
+    width: 16px; height: 16px; margin-left: 5px; margin-right: 5px; border-radius: 50%;
+}
+.top-content .carousel {  width: 60%; margin-right: auto; margin-left: auto; margin-top: 30px; }
+.carousel-indicators { bottom: -80px; }
+.top-content .carousel-indicators li { width: 16px; height: 16px; margin-left: 5px; margin-right: 5px; border-radius: 50%; }
