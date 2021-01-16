@@ -18,7 +18,11 @@ body {
 .navbar {
     background-color: rgb(33, 33, 87);
 }
-
+#navbarToggleExternalContent {
+    background-color: white;
+    opacity: 90%;
+    border-radius: 4px;
+}
 .name {
 
     margin-top: auto;
