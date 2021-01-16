@@ -23,6 +23,10 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+.name a {
+    text-decoration: none;
+    color: white;
+}
 .english {
     margin-top: 12px
 }
@@ -77,10 +81,7 @@ hr {
     font-size: x-large;
     line-height: 2;
 }
-.name a {
-    text-decoration: none;
-    color: white;
-}
+
 #navbarToggleExternalContent {
     background-color: white;
     opacity: 90%;
