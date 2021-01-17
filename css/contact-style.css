@@ -39,36 +39,62 @@ body {
     color: white;
 }
 
+.fa-whatsapp {
+    color: green;
+    border: solid green 3px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+
+}
+#whatsapp-icon {
+    display:block;text-align:center;
+}
 h1 {
     margin-top: 60px;
     text-align: center;
-    font-size: 23px;
 }
-
-h2 {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    width: 70%;
-    line-height: 1.5;
-}
-
-details {
-    margin-top: 50px;
+#contact-text {
     width: 60%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    cursor: pointer;
+    margin-top: 30px;
 }
 
-table {
+#email-phone {
     margin-top: 20px;
-    width: 60%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    border: dotted white 3px;
-    background-color: thistle;
 }
+
+
+#email, #phone {
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+    border: double rgb(33, 33, 87) 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    
+}
+#email-phone a {
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+
+    #email-phone{
+
+        font-size: 12px;
+    }
+    #email-phone {
+        margin-top: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+           
+    }
